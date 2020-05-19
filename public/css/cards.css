@@ -1,0 +1,43 @@
+.card-counter{
+    box-shadow: 4px 4px 10px #DADADA;
+    margin: 10px;
+    padding: 20px 10px;
+    background-color: #fff;
+    height: 100px;
+    border-radius: 5px;
+    transition: .3s linear all;
+}
+.card-counter:hover{
+    box-shadow: 4px 4px 20px #DADADA;
+    transition: .3s linear all;
+}
+
+
+.card-counter.info{
+    background-color: #283E4F;
+    color: #FFF;
+}  
+
+.card-counter i{
+    font-size: 5em;
+    opacity: 0.2;
+}
+
+.card-counter .count-numbers{
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    font-size: 32px;
+    display: block;
+}
+
+.card-counter .count-name{
+    position: absolute;
+    right: 35px;
+    top: 65px;
+    font-style: italic;
+    text-transform: capitalize;
+    opacity: 0.5;
+    display: block;
+    font-size: 18px;
+}
